@@ -25,6 +25,10 @@ The CAD design for the Pond Cleaning Bot is well underway. Explore the detailed 
 
 Feel free to explore these GIFs to witness the progress and capabilities of the Pond Cleaning Bot.
 
+<p align="center">
+  <img src="render/Overview.gif" alt="Project Overview GIF" width="80%" />
+</p>
+
 ## Getting Started
 
 To get started with the project, follow these steps:
