@@ -7,6 +7,11 @@
 
 Welcome to the Pond Cleaning Bot project repository! This initiative aims to address the challenge of automatically cleaning marine surfaces from floating wastes in ponds. The Pond Cleaning Bot is designed with a net holder to effectively collect and remove debris, contributing to a cleaner aquatic environment.
 
+<p align="center">
+  <img src="render/Overview.gif" alt="Overview">
+</p>
+
+
 ### Project Motive
 
 Marine pollution poses a significant threat to ecosystems, and this project seeks to provide an innovative solution for cleaning floating film wastes on the pond surface autonomously. By automating the process, we aim to contribute to the preservation of aquatic life and the overall health of pond ecosystems.
