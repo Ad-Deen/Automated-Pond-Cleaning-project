@@ -1,6 +1,9 @@
 # Pond Cleaning Bot Project
 
-![Project Banner](path/to/your/banner_image.jpg)
+# Pond Cleaning Bot Project
+
+<img src="render/37c69010-b3f0-4c10-bc76-0af6e787c2d7.PNG" alt="Image 1" width="45%" /> <img src="render/Jelly_fish_bot_2023-Feb-03_08-53-20AM-000_CustomizedView6383776156.png" alt="Image 2" width="45%" />
+
 
 ## Overview
 
