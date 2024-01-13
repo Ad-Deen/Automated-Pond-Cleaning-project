@@ -21,14 +21,7 @@ Marine pollution poses a significant threat to ecosystems, and this project seek
 
 #### Mechanical Design
 
-The CAD design for the Pond Cleaning Bot is well underway. Explore the detailed components and structure in the CAD files located in the [mechanical_design](link_to_mechanical_design) directory.
-
-#### Cleaning Demonstration
-
-See the Pond Cleaning Bot in action! Check out the demonstration GIFs below:
-
-1. [Cleaning Demo 1](path/to/demo1.gif)
-2. [Cleaning Demo 2](path/to/demo2.gif)
+The CAD design for the Pond Cleaning Bot is well underway. Explore the detailed components and structure in the CAD files located in the [mechanical_design](https://grabcad.com/library/pond-waste-remover-bot-1) directory.
 
 Feel free to explore these GIFs to witness the progress and capabilities of the Pond Cleaning Bot.
 
@@ -36,7 +29,19 @@ Feel free to explore these GIFs to witness the progress and capabilities of the 
 
 To get started with the project, follow these steps:
 
-1. Clone the repository to your local machine:
+### Simulation Part:
 
-   ```bash
-   git clone https://github.com/your-username/pond-cleaning-bot.git
+1. Download the CAD file from grabCAD and organize the joints in a parant child relation tree.
+2. Keep the main frame of the bot as a root of the tree of parant child relationship.
+3. Convert the .f3d to URDF from Fusion 360 using fusion2urdf plugin. You will find further details [here](https://github.com/syuntoku14/fusion2urdf).
+4. Use the URDF for simulations in Simulating Softwares Like [Gazebo 11](https://gazebosim.org/home).
+
+### Power Distribution Part
+
+1. You can re-edit the model for more practical appearance. I didn't fixed the [joint mechanisms in the model](https://www.tandfonline.com/doi/full/10.1080/01691864.2020.1813624).
+2. Apply actuators and move the actuators from Electrical power lines with feedback loop of the joint motion. There is already placeholders for batteries.
+
+### Navigation and Feedback action stack
+
+This part will be worked after we completetly build the mechanical and electrical power distribution all practical actuators in the model.
+But you are welcome to do the work on perception stack early on. Let me know your progess and let's collaborate. It should detect wastes on the pond navigate in such a way that it catches the pollution in the net. 
